@@ -6,8 +6,8 @@
 - [X] Day two [Random Number Generator](https://mattsilverio.github.io/100-days-of-javascript/Day_2/)
 - [X] Day three [Random Hex Code Generator](https://mattsilverio.github.io/100-days-of-javascript/Day_3/)
 - [ ] Day four
-- [] Day five
-- [] Day six
+- [ ] Day five
+- [ ] Day six
 
 
 
