@@ -6,5 +6,5 @@ function generateRandomNumber(){
     number.innerHTML = randomNumber
 }
 
-addEventListener("click", generateRandomNumber)
+btn.addEventListener("click", generateRandomNumber)
 
