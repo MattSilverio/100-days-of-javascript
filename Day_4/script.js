@@ -2,11 +2,15 @@ const modal = document.querySelector(".modal")
 const close = document.querySelector(".close")
 const btnModal = document.getElementById("btn")
 
-close.addEventListener("click", () => {
-    modal.style.display = "none"
-})
+btnModal.addEventListener("click", openModal)
+close.addEventListener("click", closeModal)
 
-btnModal.addEventListener("click", (event) => {
+
+function openModal(event){
     event.preventDefault()
     modal.style.display = "block"
-})
+}
+
+function closeModal () {
+    modal.style.display = "none"
+}

@@ -109,7 +109,7 @@ body{
     padding: 2rem;
     border: 1px solid #777;
     border-radius: 8px;
-    animation: slide ease .8s;
+    animation: slide ease 0.8s;
 }
 
 .content p{
@@ -117,10 +117,10 @@ body{
 }
 
 @keyframes slide{
-    from{
-        transform: translateY(-30);
+    0%{
+        transform: translateY(-30rem);
     }
-    to{
+    100%{
         transform: translateY(0);
     }
 }
